@@ -59,7 +59,7 @@ import com.github.nkzawa.socketio.client.Socket;
 private Socket mSocket;
 {
     try {
-        mSocket = IO.socket("http://chat.socket.io");
+        mSocket = IO.socket("https://socket-io-chat.now.sh");
     } catch (URISyntaxException e) {}
 }
 
